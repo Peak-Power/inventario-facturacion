@@ -11,7 +11,7 @@
 	require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
 	
 	$active_talle="active";
-	$title="Talles | CLEO SEXY CLUB";
+	$title="Talles | SZWEDOWSKI";
 ?>
 <!DOCTYPE html>
 <html lang="en">

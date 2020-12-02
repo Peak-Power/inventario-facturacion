@@ -10,7 +10,7 @@
 	$active_productos="";
 	$active_clientes="";
 	$active_usuarios="";	
-	$title="Facturas | CLEO SEXY CLUB";
+	$title="Facturas | EMPRESA";
 ?>
 <!DOCTYPE html>
 <html lang="en">

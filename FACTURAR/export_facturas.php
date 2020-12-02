@@ -15,7 +15,7 @@ background-color:#C60;
 
 
 <?php  
-include("../INVENTARIO/funciones.php"); 
+include("../INVENTARIOs/funciones.php"); 
 //export.php  
 $connect = mysqli_connect("localhost", "root", "", "simple_stock");
 $output = '';
@@ -33,22 +33,21 @@ if(isset($_POST["export"]))
    <table class="table" bordered="1"> 
    
    					<tr>
-					<th colspan="9" align="center" bordercolor="#C60">REPORTE FACTURAS - CLEO SEXY CLUB</th>
+					<th colspan="9" align="center" bordercolor="#C60">REPORTE FACTURAS </th>
 					</tr>
 					 
-                    <tr class="color">  
-                         <th>ID_FACTURA</th>  
-                         <th>NUMERO_FACTURA</th>  
-                         <th>FECHA_FACTURA</th>  
-      					 <th>ID_CLIENTE</th>
-       					 <th>ID_VENDEDOR</th>
-						 <th>CONDICIONES</th>
-						 <th class="color">TOTAL_VENTA</th>
-						 <th>ESTADO_FACTURA</th>
-						 <th>CANAL</th>
+          <tr class="color">  
+          <th>ID_FACTURA</th>  
+          <th>NUMERO_FACTURA</th>  
+          <th>FECHA_FACTURA</th>  
+      		<th>ID_CLIENTE</th>
+       		<th>ID_VENDEDOR</th>
+					<th>CONDICIONES</th>
+					<th class="color">TOTAL_VENTA</th>
+					<th>ESTADO_FACTURA</th>
+					<th>CANAL</th>
 						 
-						 
-                    </tr>
+					</tr>
   ';
   while($row = mysqli_fetch_array($result))
   {

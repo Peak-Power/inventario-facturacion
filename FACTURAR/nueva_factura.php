@@ -9,7 +9,7 @@
 	$active_productos="";
 	$active_clientes="";
 	$active_usuarios="";	
-	$title="Nueva Factura | CLEO SEXY CLUB";
+	$title="Nueva Factura | SZWEDOWSKI";
 	
 	/* Connect To Database*/
 	require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos

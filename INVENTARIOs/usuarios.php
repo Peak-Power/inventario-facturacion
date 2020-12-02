@@ -10,7 +10,7 @@
 	require_once ("config/db.php");//Contiene las variables de configuracion para conectar a la base de datos
 	require_once ("config/conexion.php");//Contiene funcion que conecta a la base de datos
 		$active_usuarios="active";	
-	$title="Usuarios | CLEO SEXY CLUB";
+	$title="Usuarios | SZWEDOWSKI";
 ?>
 <!DOCTYPE html>
 <html lang="en">

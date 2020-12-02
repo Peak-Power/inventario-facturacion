@@ -13,7 +13,7 @@
 	$active_productos="";
 	$active_clientes="";
 	$active_usuarios="active";	
-	$title="Usuarios | Cleo Sexy Club";
+	$title="Usuarios | SZWEDOWSKI ";
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -14,7 +14,7 @@
 	$active_productos="active";
 	$active_clientes="";
 	$active_usuarios="";	
-	$title="Productos | CLEO SEXY CLUB";
+	$title="Productos | SZWEDOWSKI";
 ?>
 <!DOCTYPE html>
 <html lang="en">

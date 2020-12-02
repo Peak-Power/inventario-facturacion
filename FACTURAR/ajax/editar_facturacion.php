@@ -2,7 +2,7 @@
 	
 include('is_logged.php');//Archivo verifica que el usario que intenta acceder a la URL esta logueado
 $id_factura= $_SESSION['id_factura'];
-include("../../INVENTARIO/funciones.php");
+include("../../INVENTARIOs/funciones.php");
 $numero_factura= $_SESSION['numero_factura'];
 if (isset($_POST['id'])){$id=intval($_POST['id']);}
 if (isset($_POST['cantidad'])){$cantidad=intval($_POST['cantidad']);}

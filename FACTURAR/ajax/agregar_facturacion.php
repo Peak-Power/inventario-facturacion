@@ -1,6 +1,6 @@
 <?php
 
-include("../../INVENTARIO/funciones.php");
+include("../../INVENTARIOs/funciones.php");
 include('is_logged.php');//Archivo verifica que el usario que intenta acceder a la URL esta logueado
 $session_id= session_id();
 if (isset($_POST['id'])){$id=$_POST['id'];}

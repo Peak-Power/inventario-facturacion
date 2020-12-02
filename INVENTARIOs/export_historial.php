@@ -36,16 +36,16 @@ if(isset($_POST["export"]))
 					<th colspan="9" align="center" bordercolor="#C60">REPORTE HISTORIAL - DEPORTE</th>
 					</tr>
    
-                    <tr class="color">  
-                         <th>id_HISTORIAL</th>  
-                         <th>ID_PRODUCTO</th>  
-                         <th>USER_ID</th>  
-      					 <th>FECHA</th>
-       					 <th>NOTA</th>
-						 <th>REFERENCIA</th>
-						 <th>CANTIDAD</th>
-						 <th>CANAL</th>
-						 <th>FORMA PAGO</th>
+            <tr class="color">  
+            <th>id_HISTORIAL</th>  
+            <th>ID_PRODUCTO</th>  
+            <th>USER_ID</th>  
+      			<th>FECHA</th>
+       			<th>NOTA</th>
+						<th>REFERENCIA</th>
+						<th>CANTIDAD</th>
+						<th>CANAL</th>
+						<th>FORMA PAGO</th>
 						 
                     </tr>
   ';
@@ -56,12 +56,12 @@ if(isset($_POST["export"]))
                          <td>'.$row["id_historial"].'</td>  
                          <td>'.$row["id_producto"].'</td>  
                          <td>'.$row["user_id"].'</td>  
-       					 <td>'.$row["fecha"].'</td>  
-       					 <td class="color">'.$row["nota"].'</td>
-						 <td>'.$row["referencia"].'</td>  
-       					 <td class="color">'.$row["cantidad"].'</td>  
-       					 <td>'.$row["canal"].'</td>
-						 <td>'.$row["f_pago"].'</td>
+       					        <td>'.$row["fecha"].'</td>  
+       					        <td class="color">'.$row["nota"].'</td>
+						            <td>'.$row["referencia"].'</td>  
+       					        <td class="color">'.$row["cantidad"].'</td>  
+       					        <td>'.$row["canal"].'</td>
+						            <td>'.$row["f_pago"].'</td>
 						 
 						 
                     </tr>
